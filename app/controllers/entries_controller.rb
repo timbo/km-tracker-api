@@ -12,6 +12,9 @@ class EntriesController < ApplicationController
     end
   end
 
+  # def delete
+  # end
+
   private
   def entry_params
     params.require(:entry).permit(:date, :distance)
